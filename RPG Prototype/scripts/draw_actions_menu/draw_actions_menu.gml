@@ -3,7 +3,6 @@
 ///@arg actions_texts
 ///@arg selected_color
 ///@arg default_color
-
 var actions_length = argument0;
 var selected_action = argument1;
 var actions_texts = argument2;
@@ -20,11 +19,6 @@ for (var i = 0; i < actions_length; ++i) {
 			
 	draw_text(20, actions_position - 50 + i * 12, actions_texts[i]);
 }
-
-//draw_set_color(menu_red_color);
-
-//if (instance_exists(oEnemy))
-//	draw_text(oEnemy.x, oEnemy.y + 30, taken_damage_text);
 
 draw_set_color(c_white);
 draw_set_halign(fa_left);

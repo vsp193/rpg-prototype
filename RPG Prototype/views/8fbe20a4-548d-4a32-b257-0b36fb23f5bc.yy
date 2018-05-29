@@ -5,7 +5,8 @@
     "name": "8fbe20a4-548d-4a32-b257-0b36fb23f5bc",
     "children": [
         "43c13e69-527f-419c-a975-36a8648f465b",
-        "aff6c399-9b32-462c-934c-0ae3b0bb14fe"
+        "aff6c399-9b32-462c-934c-0ae3b0bb14fe",
+        "77cbb85a-c940-4051-86e7-d26079aa5219"
     ],
     "filterType": "GMScript",
     "folderName": "Draw",

@@ -42,7 +42,7 @@
             "Key": "0f656a8d-42f4-4140-a50e-ccdaf6e196b0",
             "Value": {
                 "id": "0ee9a866-8153-41d1-8871-04382a645f99",
-                "resourcePath": "sprites\\sFont\\sFont.yy",
+                "resourcePath": "sprites\\s_font\\s_font.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -60,14 +60,6 @@
                 "id": "fb2e69bd-330a-472b-9559-7fac6e6d7366",
                 "resourcePath": "views\\199061ff-e32d-4553-9ea8-cbb5f0455b36.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1a7e1ac6-fe03-47a0-b75b-74437b1acb01",
-            "Value": {
-                "id": "f8f9e0f9-f007-487d-b420-616e81c622eb",
-                "resourcePath": "sprites\\sCollision\\sCollision.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -90,7 +82,7 @@
             "Key": "1cf76a02-3dc7-4a75-b5d4-1538fb58f522",
             "Value": {
                 "id": "b509d84b-caee-477b-bccb-b500c98130de",
-                "resourcePath": "objects\\oActor\\oActor.yy",
+                "resourcePath": "objects\\o_actor\\o_actor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -98,7 +90,7 @@
             "Key": "2e4e50c9-c98a-4acf-9978-de3dfe3ed7ba",
             "Value": {
                 "id": "e181d7d9-6a42-44a0-971b-79a57eeb3bc8",
-                "resourcePath": "objects\\oBattleController\\oBattleController.yy",
+                "resourcePath": "objects\\o_battle\\o_battle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -143,14 +135,6 @@
             }
         },
         {
-            "Key": "4bc133cd-3e91-494f-b7b0-2d7dba96bb0a",
-            "Value": {
-                "id": "9bde0684-eb7a-42fe-9704-d903d8a144bf",
-                "resourcePath": "tilesets\\tCollision\\tCollision.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "53f214af-d1ec-434d-bf09-909376c302c8",
             "Value": {
                 "id": "8ea8b369-63ae-49e7-a723-0150a00308ab",
@@ -170,7 +154,7 @@
             "Key": "5942bad0-62db-4ec3-8ea5-077b07e5f59c",
             "Value": {
                 "id": "19d419b2-9820-4955-bf4f-31a27c1ccad1",
-                "resourcePath": "objects\\oInput\\oInput.yy",
+                "resourcePath": "objects\\o_input\\o_input.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,10 +183,18 @@
             }
         },
         {
+            "Key": "77cbb85a-c940-4051-86e7-d26079aa5219",
+            "Value": {
+                "id": "982f1294-373b-4c09-a15e-87b334791024",
+                "resourcePath": "scripts\\draw_hp\\draw_hp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "79a8ac45-144b-4af2-b2da-51a6e1557f24",
             "Value": {
                 "id": "da0bbf54-9330-4575-885f-0a6ea2eb239f",
-                "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourcePath": "objects\\o_game\\o_game.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -218,7 +210,7 @@
             "Key": "85b76fd0-b3f4-4fd5-bcfa-a6b54fd274d6",
             "Value": {
                 "id": "2913393f-6d6a-4ba9-94a8-dec0ea5f4f8d",
-                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -250,7 +242,7 @@
             "Key": "9b0fc401-b587-4359-8178-5601de0d47f8",
             "Value": {
                 "id": "207abeee-8e3e-47ad-b149-45faa573caca",
-                "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
+                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +250,7 @@
             "Key": "9f2e90d3-c464-4461-832f-12884657bca8",
             "Value": {
                 "id": "ce03af05-d100-4147-b7e1-b7710ab08633",
-                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourcePath": "objects\\o_player\\o_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -267,22 +259,6 @@
             "Value": {
                 "id": "72b0824d-d67f-4441-a422-e6279c7728b8",
                 "resourcePath": "views\\a16afe57-7a90-4162-a93b-0df2cf0520cc.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a5b1d2a8-6b27-433d-a193-9b4dd659a956",
-            "Value": {
-                "id": "46216aa7-e62c-40c6-af01-74f510c45cfe",
-                "resourcePath": "views\\a5b1d2a8-6b27-433d-a193-9b4dd659a956.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a6e1df70-21e6-4a47-adc7-d26fc51b2e14",
-            "Value": {
-                "id": "346ed71d-5690-4d80-83ef-2469fb87fde9",
-                "resourcePath": "views\\a6e1df70-21e6-4a47-adc7-d26fc51b2e14.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -311,14 +287,6 @@
             }
         },
         {
-            "Key": "bdb948d4-f5ca-4057-8d95-443787acfad1",
-            "Value": {
-                "id": "11241f23-d2a1-4c3c-8818-fb06567bc0b4",
-                "resourcePath": "scripts\\attack_actor\\attack_actor.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c3ea0ea4-dfd3-43af-bd40-a0367a6f1c81",
             "Value": {
                 "id": "abe5f131-ff3b-4762-8323-dcb785db71a4",
@@ -330,7 +298,7 @@
             "Key": "c8c58018-3c3d-4949-b100-8564c276d037",
             "Value": {
                 "id": "31b12d8b-a0f7-4045-ae56-e8a803fdc9bf",
-                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourcePath": "sprites\\s_player\\s_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -400,9 +368,9 @@
         }
     ],
     "script_order": [
-        "bdb948d4-f5ca-4057-8d95-443787acfad1",
         "43c13e69-527f-419c-a975-36a8648f465b",
         "aff6c399-9b32-462c-934c-0ae3b0bb14fe",
+        "77cbb85a-c940-4051-86e7-d26079aa5219",
         "cecfb877-a754-487d-8112-a4f89077b1bb",
         "93549ffc-15ff-4e58-8124-9220e84b7f4e"
     ],
