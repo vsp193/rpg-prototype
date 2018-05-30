@@ -1,10 +1,14 @@
 /// @description Setup
 var player_actor = instance_create_layer(110, 100, "Instances", o_player);
+player_actor.sprite_index = s_battle_player_idle;
 player_actor.hp = 30;
 player_actor.total_hp = 30;
 player_actor.strenght = 3;
 player_actor.agility = 2;
 player_actor.defense = 2;
+player_actor.actor_sprites[actor_states.idle] = s_battle_player_idle;
+player_actor.actor_sprites[actor_states.waiting_input] = s_battle_player_idle;
+player_actor.actor_sprites[actor_states.attack] = s_battle_player_attack;
 var actor_ui = instance_create_layer(player_actor.x, player_actor.y, "Instances", o_actor_ui);
 actor_ui.actor = player_actor;
 

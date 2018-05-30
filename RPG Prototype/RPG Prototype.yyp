@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "131cf321-995b-4a7e-9070-ec20cb27ce7f",
+            "Value": {
+                "id": "410af120-79aa-4ac7-949e-548d8a0335ef",
+                "resourcePath": "sprites\\s_battle_player_idle\\s_battle_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1527073d-1dd6-474a-a027-7f36c0153e09",
             "Value": {
                 "id": "3f06cfe5-06bf-4584-bc8a-759f81db1dbc",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "b47882a6-e931-47af-8549-1fa7030879d0",
                 "resourcePath": "views\\39468937-2159-4d5b-a7ba-931a6c870258.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bfe4586-6123-48c0-9db7-6e488c249b55",
+            "Value": {
+                "id": "4f14d045-0ce6-48e9-b599-cf40ea91e197",
+                "resourcePath": "views\\3bfe4586-6123-48c0-9db7-6e488c249b55.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "daf35d13-2943-4645-8a8b-e9f60b19107f",
+            "Value": {
+                "id": "6a379d41-8134-4048-8828-1f90fddc620f",
+                "resourcePath": "rooms\\rInit\\rInit.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e1f1966d-d87b-4e49-b5b4-8f77731f6e02",
             "Value": {
                 "id": "ea245b77-5ab4-4265-a38b-825ac1bd27ed",
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "e5a4b801-7ef3-4c96-80ce-804384c41771",
+            "Value": {
+                "id": "af87e479-8eb8-43dd-8255-8b5ae3efc0b7",
+                "resourcePath": "scripts\\get_ally_actors\\get_ally_actors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ef9560db-3d61-4ae5-8ba8-44fd853add01",
             "Value": {
                 "id": "72e762f0-1f83-47dc-a270-f12ec16e652c",
@@ -388,6 +420,14 @@
                 "id": "71a11937-ff1f-4cf5-b877-6980635dbb20",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f60a2bad-2647-4fe4-90ce-4710ff65b101",
+            "Value": {
+                "id": "97ad3db0-3f78-4610-a1f8-82b183e205ae",
+                "resourcePath": "sprites\\s_battle_player_attack\\s_battle_player_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -422,7 +462,8 @@
         "37cbd14b-8f01-453d-9c8c-d7778b7b51c6",
         "f7d0982c-d3ac-4dce-a71f-f6c7a0f09aa5",
         "cecfb877-a754-487d-8112-a4f89077b1bb",
-        "93549ffc-15ff-4e58-8124-9220e84b7f4e"
+        "93549ffc-15ff-4e58-8124-9220e84b7f4e",
+        "e5a4b801-7ef3-4c96-80ce-804384c41771"
     ],
     "tutorial": ""
 }

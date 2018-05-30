@@ -29,3 +29,10 @@ enum actor_inputs {
 
 selected_input = noone;
 target = noone;
+
+actor_sprites[actor_states.idle] = s_player;
+actor_sprites[actor_states.waiting_input] = s_player;
+actor_sprites[actor_states.attack] = s_player;
+actor_sprites[actor_states.die] = s_player;
+actor_sprites[actor_states.victory] = s_player;
+actor_sprites[actor_states.fallen] = s_player;
