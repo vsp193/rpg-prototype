@@ -3,11 +3,13 @@
 ///@arg actions_texts
 ///@arg selected_color
 ///@arg default_color
+///@arg actor
 var actions_length = argument0;
 var selected_action = argument1;
 var actions_texts = argument2;
 var selected_color = argument3;
 var default_color = argument4;
+var actor = argument5;
 
 var actions_position = display_get_gui_height() ;
 
@@ -17,7 +19,7 @@ for (var i = 0; i < actions_length; ++i) {
 	else
 		draw_set_color(default_color);
 			
-	draw_text(20, actions_position - 50 + i * 12, actions_texts[i]);
+	draw_text(actor.x - 32, actor.y + 38 + i * 12, actions_texts[i]);
 }
 
 draw_set_color(c_white);

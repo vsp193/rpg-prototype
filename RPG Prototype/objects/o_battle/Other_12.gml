@@ -18,6 +18,6 @@ if (actor_to_act == ds_list_find_value(enemy_actors, 0)) {
 	play = false;
 	actor_to_act.selected_input = actor_inputs.attack;
 	randomize();
-	var ally_actor_to_attack = irandom_range(0, 1);
+	var ally_actor_to_attack = irandom(ds_list_size(ally_actors) - 1);
 	actor_to_act.target = ds_list_find_value(ally_actors, ally_actor_to_attack);
 }

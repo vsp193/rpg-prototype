@@ -3,7 +3,7 @@ enum battle_states {
 }
 
 state = battle_states.setup;
-play = true;
+play = false;
 
 ally_actors = ds_list_create();
 enemy_actors = ds_list_create();

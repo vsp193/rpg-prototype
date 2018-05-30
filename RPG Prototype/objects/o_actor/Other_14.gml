@@ -1,0 +1,2 @@
+/// @description Victory
+victory = true;
