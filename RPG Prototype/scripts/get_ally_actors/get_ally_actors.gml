@@ -1,44 +1,42 @@
-/// get_class_data()
 return json_decode(@"
 {
 	'hero': {
-		'max_health': 30,
-		'strenght': 3
+		'max_health':30,
+		'strenght':3,
+		'agility':2,
+		'defense':2,
+		'is_enemy': false,
+		'sprites': [
+			's_battle_player_idle',
+			's_battle_player_idle',
+			's_battle_player_attack'
+		],
+		'experience': 0
+	},
+	'narrator': {
+		'max_health':20,
+		'strenght':2,
+		'agility':4,
+		'defense':1,
+		'is_enemy': false,
+		'sprites': [
+			's_battle_player_idle',
+			's_battle_player_idle',
+			's_battle_player_attack'
+		],
+		'experience': 0
+	},
+	'last_one': {
+		'max_health':20,
+		'strenght':2,
+		'agility':4,
+		'defense':1,
+		'is_enemy': false,
+		'sprites': [
+			's_battle_player_idle',
+			's_battle_player_idle',
+			's_battle_player_attack'
+		],
+		'experience': 0
 	}
 }");
-
-//return json_decode(@"
-//{
-//    "elizabeth": {
-//        "name": "Elizabeth",
-//        "health": 10,
-//        "attack": 8,
-//        "defense": 8,
-//        "speed": 9,
-//        "critical": 25,
-//        "experience": 0,
-//        "actions": []
-//    },
-    
-//    "spider": {
-//        "name": "Spider",
-//        "health": 3,
-//        "attack": 5,
-//        "defense": 4,
-//        "speed": 10,
-//        "critical": 5,
-//        "experience": 20,
-//        "actions": ["attack", "defend"]
-//    },
-    
-//     "gargoyle": {
-//        "name": "Gargoyle",
-//        "health": 10,
-//        "attack": 4,
-//        "defense": 8,
-//        "speed": 4,
-//        "critical": 10,
-//        "experience": 100,
-//        "actions": ["sonar spell", "defend"]
-//    }
-//}");

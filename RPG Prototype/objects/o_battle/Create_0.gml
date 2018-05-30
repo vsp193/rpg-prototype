@@ -8,6 +8,9 @@ play = false;
 ally_actors = ds_list_create();
 enemy_actors = ds_list_create();
 
+allies_y = 100;
+enemies_y = 35;
+
 actors_to_act = ds_queue_create();
 actor_to_act = noone;
 
@@ -20,6 +23,3 @@ selected_player_action = player_actions.attack;
 player_actions_text[player_actions.attack] = "Atacar";
 player_actions_text[player_actions.run] = "Fugir";
 player_actions_length = array_length_1d(player_actions_text);
-
-test = get_ally_actors();
-show_debug_message(ds_map_find_value(test[? "hero"], "max_health"));

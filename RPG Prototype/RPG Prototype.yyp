@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "08b567ad-8d6b-4fdd-8be0-b680f8e7a444",
+            "Value": {
+                "id": "895fa682-b178-40ad-9dba-b84e9437e4a8",
+                "resourcePath": "views\\08b567ad-8d6b-4fdd-8be0-b680f8e7a444.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0f656a8d-42f4-4140-a50e-ccdaf6e196b0",
             "Value": {
                 "id": "0ee9a866-8153-41d1-8871-04382a645f99",
@@ -196,6 +204,22 @@
                 "id": "9965c927-2130-4840-85b8-bfcac262d289",
                 "resourcePath": "views\\599fd45a-558e-45a6-880b-29c07eea6981.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e7bc7cc-79e3-48ba-a18e-508810995603",
+            "Value": {
+                "id": "ee13163f-4944-4ba5-ac2b-30eb62142c2b",
+                "resourcePath": "objects\\o_battle_setup\\o_battle_setup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f5148a4-6f85-44f8-8a6a-730fa129c868",
+            "Value": {
+                "id": "4bb214c8-1691-4081-8432-fb034bc95617",
+                "resourcePath": "scripts\\setup_actors\\setup_actors.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "d9da9e07-c194-4958-a5bf-5a1a549410fe",
+            "Value": {
+                "id": "ec4fba76-2518-4d68-ad0b-ef8b5758da86",
+                "resourcePath": "scripts\\get_enemy_actors\\get_enemy_actors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "da93b57f-15be-42de-bbf0-c587e1a579cb",
             "Value": {
                 "id": "b590de8c-3ce4-4d25-b968-c56d8ed4f9e3",
@@ -380,6 +412,14 @@
                 "id": "6a379d41-8134-4048-8828-1f90fddc620f",
                 "resourcePath": "rooms\\rInit\\rInit.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e05a2dc2-7e24-4b99-b3f0-6aac7d9a2f05",
+            "Value": {
+                "id": "5a2352be-8bca-4fc4-b4fb-767a8a7f5678",
+                "resourcePath": "objects\\o_data\\o_data.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -461,9 +501,11 @@
         "77cbb85a-c940-4051-86e7-d26079aa5219",
         "37cbd14b-8f01-453d-9c8c-d7778b7b51c6",
         "f7d0982c-d3ac-4dce-a71f-f6c7a0f09aa5",
+        "5f5148a4-6f85-44f8-8a6a-730fa129c868",
         "cecfb877-a754-487d-8112-a4f89077b1bb",
         "93549ffc-15ff-4e58-8124-9220e84b7f4e",
-        "e5a4b801-7ef3-4c96-80ce-804384c41771"
+        "e5a4b801-7ef3-4c96-80ce-804384c41771",
+        "d9da9e07-c194-4958-a5bf-5a1a549410fe"
     ],
     "tutorial": ""
 }
