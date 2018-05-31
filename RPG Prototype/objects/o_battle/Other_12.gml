@@ -11,12 +11,15 @@ if (ally_actors[| actor_to_act_index])
 		selected_player_action = min(++selected_player_action, player_actions_length-1);
 		
 	if (o_input.action_one_pressed) {
-		actor_to_act.selected_input = actor_inputs.attack;
-		actor_to_act.target = ds_list_find_value(enemy_actors, 0);
+		state = battle_states.enemy_select;
+		enemy_target = 0;
+		
+		//actor_to_act.selected_input = actor_inputs.attack;
+		//actor_to_act.target = ds_list_find_value(enemy_actors, 0);
 	}
 }
 
-if (actor_to_act == ds_list_find_value(enemy_actors, 0)) {
+if (actor_to_act.is_enemy) {
 	play = false;
 	actor_to_act.selected_input = actor_inputs.attack;
 	randomize();
