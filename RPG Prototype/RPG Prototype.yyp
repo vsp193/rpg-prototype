@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0944ac80-c821-41de-9f7e-7e723310b783",
+            "Value": {
+                "id": "67adc3a5-a7f6-49dd-b4a2-22a5008a1529",
+                "resourcePath": "views\\0944ac80-c821-41de-9f7e-7e723310b783.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0f656a8d-42f4-4140-a50e-ccdaf6e196b0",
             "Value": {
                 "id": "0ee9a866-8153-41d1-8871-04382a645f99",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "51af0b84-0e9c-4d6c-8327-d6fc84492f40",
+            "Value": {
+                "id": "cab45e0e-6059-4640-869c-9d45ecf79c26",
+                "resourcePath": "objects\\o_ally_select_ui\\o_ally_select_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53f214af-d1ec-434d-bf09-909376c302c8",
             "Value": {
                 "id": "8ea8b369-63ae-49e7-a723-0150a00308ab",
@@ -220,6 +236,14 @@
                 "id": "9965c927-2130-4840-85b8-bfcac262d289",
                 "resourcePath": "views\\599fd45a-558e-45a6-880b-29c07eea6981.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a237bfe-5536-41db-9498-da149257a845",
+            "Value": {
+                "id": "486e8847-3562-45de-aec3-bfc4e3889786",
+                "resourcePath": "scripts\\draw_defeat_message\\draw_defeat_message.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "f7f0d2ce-4d80-491c-adab-4b04d845daff",
+            "Value": {
+                "id": "ad071462-82a4-408f-b235-3a4513bb1268",
+                "resourcePath": "objects\\o_player_ui\\o_player_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa826d26-60bc-4af3-b0dc-4edda85fbf54",
             "Value": {
                 "id": "0c8091d9-c22c-48d9-ac66-113ae988e9af",
@@ -516,6 +548,7 @@
         "aff6c399-9b32-462c-934c-0ae3b0bb14fe",
         "77cbb85a-c940-4051-86e7-d26079aa5219",
         "37cbd14b-8f01-453d-9c8c-d7778b7b51c6",
+        "5a237bfe-5536-41db-9498-da149257a845",
         "f7d0982c-d3ac-4dce-a71f-f6c7a0f09aa5",
         "2eac8505-46cf-489c-988a-786284c2cdae",
         "5f5148a4-6f85-44f8-8a6a-730fa129c868",

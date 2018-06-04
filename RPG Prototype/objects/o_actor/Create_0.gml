@@ -1,10 +1,5 @@
 enum actor_states {
-	idle,
-	waiting_input,
-	attack,
-	die,
-	victory,
-	fallen
+	idle, waiting_input, target_select, attack, die, victory, fallen, not_active_input
 }
 
 state = actor_states.idle;
@@ -16,7 +11,7 @@ agility = 0;
 defense = 0;
 
 action_meter = 0;
-max_action_meter = 100;
+max_action_meter = 300;
 
 taken_damage = 0;
 victory = false;

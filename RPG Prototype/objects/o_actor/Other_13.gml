@@ -1,5 +1,12 @@
-/// @description Die
-var actors_list = is_enemy ? o_battle.enemy_actors : o_battle.ally_actors;
-var actor_index = ds_list_find_index(actors_list, id);
-ds_list_delete(actors_list, actor_index);
-state = actor_states.fallen;
+/// @description Attack
+if (is_real(target) && instance_exists(target)) {
+	randomize();
+	var damage = max(irandom(6) + strenght - target.defense, 1);
+
+	target.hp = max(target.hp - damage, 0);
+	target.taken_damage = damage;
+	target.alarm[0] = global.one_second;
+} else
+	o_battle.play = true;
+	
+state = actor_states.idle;

@@ -1,0 +1,1 @@
+draw_text(120, 90, "Derrota!");

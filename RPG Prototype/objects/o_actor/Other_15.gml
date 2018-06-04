@@ -1,2 +1,2 @@
-/// @description Fallen
-visible = false;
+/// @description Victory
+victory = true;

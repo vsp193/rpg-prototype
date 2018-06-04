@@ -16,7 +16,9 @@ for (var i = 0; i < party_actors_size; ++i) {
 	var actor_position = sides_distance + i*distance;
 	
     var actor_data = actors_data[| i];
-	var actor_instance = instance_create_layer(actor_position, y_, "Instances", o_actor);
+	var actor_instance = actor_data[? "is_enemy"]
+		? instance_create_layer(actor_position, y_, "Instances", o_enemy)
+		: instance_create_layer(actor_position, y_, "Instances", o_player);
 	
 	actor_instance.hp = actor_data[? "max_health"];
 	actor_instance.total_hp = actor_data[? "max_health"];
@@ -27,7 +29,9 @@ for (var i = 0; i < party_actors_size; ++i) {
 	
 	actor_instance.sprite_index = actor_instance.is_enemy ? s_enemy : s_player;
 	
-	var actor_ui = instance_create_layer(actor_instance.x, actor_instance.y, "Instances", o_actor_ui);
+	var actor_ui = actor_data[? "is_enemy"]
+		? instance_create_layer(actor_instance.x, actor_instance.y, "Instances", o_actor_ui)
+		: instance_create_layer(actor_instance.x, actor_instance.y, "Instances", o_player_ui);
 	actor_ui.actor = actor_instance;
 	
 	ds_list_add(actors_list, actor_instance);
