@@ -1,5 +1,9 @@
 /// @description Waiting input
-event_inherited();
+if (o_battle.selected_ally != id && o_battle.selected_ally != noone || !o_battle.play)
+	exit;
+
+if (o_battle.selected_ally == noone)
+	o_battle.selected_ally = id;
 
 if (o_input.up_pressed)
 	selected_player_action = max(--selected_player_action, 0);

@@ -1,5 +1,5 @@
 enum actor_states {
-	idle, waiting_input, target_select, attack, die, victory, fallen, not_active_input
+	idle, waiting_input, target_select, attack, die, victory, fallen
 }
 
 state = actor_states.idle;

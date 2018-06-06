@@ -11,10 +11,4 @@ enemy_actors = ds_list_create();
 allies_y = 100;
 enemies_y = 35;
 
-actors_to_act = ds_queue_create();
-actor_to_act = noone;
-
-ready_allies = ds_list_create();
-selected_ready_ally = noone;
-
-enemy_target = noone;
+selected_ally = noone;

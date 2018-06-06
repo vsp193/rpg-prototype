@@ -13,6 +13,6 @@ display_set_gui_size(view_width, view_height);
 global.party_actors = ds_list_create();
 ds_list_add(global.party_actors, o_data.all_allies[? "hero"]);
 ds_list_add(global.party_actors, o_data.all_allies[? "narrator"]);
-//ds_list_add(global.party_actors, o_data.all_allies[? "last_one"]);
+ds_list_add(global.party_actors, o_data.all_allies[? "last_one"]);
 
 room_goto_next();

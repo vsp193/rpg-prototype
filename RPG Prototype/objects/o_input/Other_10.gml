@@ -10,7 +10,7 @@ up_pressed = keyboard_check_pressed(vk_up);
 down_pressed = keyboard_check_pressed(vk_down);
 
 action_one_pressed = keyboard_check_pressed(vk_enter);
-action_two_pressed = keyboard_check_pressed(ord("Z"));
+action_two_pressed = keyboard_check_pressed(vk_control);
 action_one = keyboard_check(ord("X"));
 action_two = keyboard_check(ord("Z"));
 

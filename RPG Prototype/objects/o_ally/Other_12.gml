@@ -9,8 +9,12 @@ if (o_input.right_pressed)
 	
 if (o_input.action_one_pressed) {
 	target = o_battle.enemy_actors[| selected_target];
-	selected_input = actor_inputs.attack;
-	selected_target = noone;
+	state = actor_states.attack;
+	action_meter = 0;
+	o_battle.selected_ally = noone;
+}
+
+if (o_input.action_two_pressed) {
+	o_battle.play = true;
 	state = actor_states.waiting_input;
-	ds_list_delete(o_battle.ready_allies, o_battle.selected_ready_ally);
 }
