@@ -11,6 +11,6 @@ return json_decode(@"
 			's_battle_player_idle',
 			's_battle_player_attack'
 		],
-		'experience': 0
+		'experience': 100
 	}
 }");
