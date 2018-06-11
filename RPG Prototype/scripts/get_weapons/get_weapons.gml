@@ -1,0 +1,1 @@
+enum weapon_type { sword, axe, wand }

@@ -1,0 +1,1 @@
+enum armor_type { light, medium, heavy }
